@@ -25,6 +25,7 @@ ejson@1.0.9
 es5-shim@4.5.8
 fastclick@1.0.9
 geojson-utils@1.0.6
+grove:stripe-checkout@0.0.1
 hot-code-push@1.0.2
 html-tools@1.0.7
 htmljs@1.0.7
@@ -54,6 +55,7 @@ modules@0.5.1
 modules-runtime@0.6.1
 mongo@1.1.5
 mongo-id@1.0.2
+mrt:knockout-client@0.2.0
 npm-mongo@1.4.41
 observe-sequence@1.0.9
 ordered-dict@1.0.5
@@ -64,6 +66,7 @@ reactive-dict@1.1.5
 reactive-var@1.0.7
 reload@1.1.6
 retry@1.0.5
+risul:accounting@1.0.1
 routepolicy@1.0.8
 spacebars@1.0.9
 spacebars-compiler@1.0.9

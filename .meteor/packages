@@ -23,3 +23,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 twbs:bootstrap
 iron:router
 pcel:loading
+risul:accounting
+mrt:knockout-client
+grove:stripe-checkout
