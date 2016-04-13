@@ -17,12 +17,13 @@
                     <li><a href="{{pathFor 'homeAbout'}}">About</a></li>
                     <li><a href="{{pathFor 'homeContact'}}">Contact</a></li>
                 </ul>
-                <ul>
-                    {{#if isInRole 'admin'}}
-                        {{> admin_nav}}
-                    {{/if}}
-                </ul>
+
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        {{#if isInRole 'Administrator'}}
+                            <a href="#">admin</a>
+                        {{/if}}
+                    </li>
                     {{> loginButtons}}
                 </ul>
             </div>
