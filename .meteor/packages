@@ -19,6 +19,10 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
+markdown
+accounts-password
+accounts-github
+accounts-google
 
 twbs:bootstrap
 iron:router
@@ -26,3 +30,5 @@ pcel:loading
 risul:accounting
 mrt:knockout-client
 grove:stripe-checkout
+ian:accounts-ui-bootstrap-3
+alanning:roles

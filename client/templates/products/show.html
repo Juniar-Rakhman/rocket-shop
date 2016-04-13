@@ -1,14 +1,14 @@
 <template name="productsShow">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img src="/public/images/products/{{image}}" alt=""/>
+            <div class="col-md-7">
+                <img src="/images/products/{{image}}" alt=""/>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <h1>Product One</h1>
                 <p><a href="#">Vendor</a></p>
                 <p class="lead"><i>{{summary}}</i></p>
-                <p class="lead">{{description}}</p>
+                <p class="lead">{{#markdown}}{{description}}{{/markdown}}</p>
                 <div class="row">
                     <div class="col-md-12">
                         <h3>{{money price}}</h3>
