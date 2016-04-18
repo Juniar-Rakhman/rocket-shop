@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'lib',
+1 verbose cli   'vendor',
+1 verbose cli   'outer' ]
+2 info using npm@2.14.22
+3 info using node@v0.10.43
+4 verbose install initial load of /Users/a9jr5626/WebLabs/rocket-shop/package.json
+5 verbose readDependencies loading dependencies from /Users/a9jr5626/WebLabs/rocket-shop/package.json
+6 silly cache add args [ 'lib', null ]
+7 verbose cache add spec lib
+8 silly cache add args [ 'vendor', null ]
+9 verbose cache add spec vendor
+10 silly cache add args [ 'outer', null ]
+11 verbose cache add spec outer
+12 silly cache add parsed spec { raw: 'vendor',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'vendor',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed vendor@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for vendor
+15 info addNameTag [ 'vendor', 'latest' ]
+16 silly mapToRegistry name vendor
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/vendor
+20 verbose addNameTag registry:https://registry.npmjs.org/vendor not in flight; fetching
+21 silly cache add parsed spec { raw: 'outer',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'outer',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: 'latest',
+21 silly cache add   type: 'tag' }
+22 silly addNamed outer@latest
+23 verbose addNamed "latest" is being treated as a dist-tag for outer
+24 info addNameTag [ 'outer', 'latest' ]
+25 silly mapToRegistry name outer
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/outer
+29 verbose addNameTag registry:https://registry.npmjs.org/outer not in flight; fetching
+30 silly cache add parsed spec { raw: 'lib',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'lib',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed lib@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for lib
+33 info addNameTag [ 'lib', 'latest' ]
+34 silly mapToRegistry name lib
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/lib
+38 verbose addNameTag registry:https://registry.npmjs.org/lib not in flight; fetching
+39 verbose request uri https://registry.npmjs.org/vendor
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 20:51:58
+42 verbose request id 1151cc5055feee16
+43 http request GET https://registry.npmjs.org/vendor
+44 verbose request uri https://registry.npmjs.org/outer
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 20:51:58
+47 http request GET https://registry.npmjs.org/outer
+48 verbose request uri https://registry.npmjs.org/lib
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 20:51:58
+51 http request GET https://registry.npmjs.org/lib
+52 http 404 https://registry.npmjs.org/outer
+53 verbose headers { 'content-type': 'application/json',
+53 verbose headers   'cache-control': 'max-age=0',
+53 verbose headers   'content-length': '2',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Tue, 05 Apr 2016 13:51:59 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '0',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+53 verbose headers   'x-cache': 'MISS',
+53 verbose headers   'x-cache-hits': '0',
+53 verbose headers   'x-timer': 'S1459864319.733256,VS0,VE208' }
+54 silly get cb [ 404,
+54 silly get   { 'content-type': 'application/json',
+54 silly get     'cache-control': 'max-age=0',
+54 silly get     'content-length': '2',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Tue, 05 Apr 2016 13:51:59 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '0',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-sin6926-SIN',
+54 silly get     'x-cache': 'MISS',
+54 silly get     'x-cache-hits': '0',
+54 silly get     'x-timer': 'S1459864319.733256,VS0,VE208' } ]
+55 http 200 https://registry.npmjs.org/lib
+56 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+56 verbose headers   etag: '"DJOGT00D3XIERWMOPSJPOTL7B"',
+56 verbose headers   'content-type': 'application/json',
+56 verbose headers   'cache-control': 'max-age=300',
+56 verbose headers   'content-length': '2025',
+56 verbose headers   'accept-ranges': 'bytes',
+56 verbose headers   date: 'Tue, 05 Apr 2016 13:51:59 GMT',
+56 verbose headers   via: '1.1 varnish',
+56 verbose headers   age: '0',
+56 verbose headers   connection: 'keep-alive',
+56 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+56 verbose headers   'x-cache': 'MISS',
+56 verbose headers   'x-cache-hits': '0',
+56 verbose headers   'x-timer': 'S1459864319.718363,VS0,VE248',
+56 verbose headers   vary: 'Accept' }
+57 silly get cb [ 200,
+57 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly get     etag: '"DJOGT00D3XIERWMOPSJPOTL7B"',
+57 silly get     'content-type': 'application/json',
+57 silly get     'cache-control': 'max-age=300',
+57 silly get     'content-length': '2025',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Tue, 05 Apr 2016 13:51:59 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '0',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-sin6924-SIN',
+57 silly get     'x-cache': 'MISS',
+57 silly get     'x-cache-hits': '0',
+57 silly get     'x-timer': 'S1459864319.718363,VS0,VE248',
+57 silly get     vary: 'Accept' } ]
+58 verbose get saving lib to /Users/a9jr5626/.npm/registry.npmjs.org/lib/.cache.json
+59 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+60 silly addNameTag next cb for lib with tag latest
+61 silly addNamed lib@0.1.1
+62 verbose addNamed "0.1.1" is a plain semver version for lib
+63 silly mapToRegistry name lib
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/lib
+67 verbose addRemoteTarball https://registry.npmjs.org/lib/-/lib-0.1.1.tgz not in flight; adding
+68 verbose addRemoteTarball [ 'https://registry.npmjs.org/lib/-/lib-0.1.1.tgz',
+68 verbose addRemoteTarball   'dca7aca7d1a044ecb77b4a842a06042772247098' ]
+69 info retry fetch attempt 1 at 20:52:00
+70 info attempt registry request try #1 at 20:52:00
+71 http fetch GET https://registry.npmjs.org/lib/-/lib-0.1.1.tgz
+72 http 200 https://registry.npmjs.org/vendor
+73 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+73 verbose headers   etag: '"20NG4TLAIQUEFNLHM72HBCIAA"',
+73 verbose headers   'content-type': 'application/json',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'content-length': '2382',
+73 verbose headers   'accept-ranges': 'bytes',
+73 verbose headers   date: 'Tue, 05 Apr 2016 13:52:01 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   age: '0',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+73 verbose headers   'x-cache': 'MISS',
+73 verbose headers   'x-cache-hits': '0',
+73 verbose headers   'x-timer': 'S1459864320.864786,VS0,VE255',
+73 verbose headers   vary: 'Accept' }
+74 silly get cb [ 200,
+74 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+74 silly get     etag: '"20NG4TLAIQUEFNLHM72HBCIAA"',
+74 silly get     'content-type': 'application/json',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'content-length': '2382',
+74 silly get     'accept-ranges': 'bytes',
+74 silly get     date: 'Tue, 05 Apr 2016 13:52:01 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     age: '0',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-sin6920-SIN',
+74 silly get     'x-cache': 'MISS',
+74 silly get     'x-cache-hits': '0',
+74 silly get     'x-timer': 'S1459864320.864786,VS0,VE255',
+74 silly get     vary: 'Accept' } ]
+75 verbose get saving vendor to /Users/a9jr5626/.npm/registry.npmjs.org/vendor/.cache.json
+76 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+77 silly addNameTag next cb for vendor with tag latest
+78 silly addNamed vendor@0.0.2
+79 verbose addNamed "0.0.2" is a plain semver version for vendor
+80 silly mapToRegistry name vendor
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/vendor
+84 verbose addRemoteTarball https://registry.npmjs.org/vendor/-/vendor-0.0.2.tgz not in flight; adding
+85 verbose addRemoteTarball [ 'https://registry.npmjs.org/vendor/-/vendor-0.0.2.tgz',
+85 verbose addRemoteTarball   '91602d72910fda56716d4e77d9156ea983082dfa' ]
+86 info retry fetch attempt 1 at 20:52:01
+87 info attempt registry request try #1 at 20:52:01
+88 http fetch GET https://registry.npmjs.org/vendor/-/vendor-0.0.2.tgz
+89 http fetch 200 https://registry.npmjs.org/lib/-/lib-0.1.1.tgz
+90 silly fetchAndShaCheck shasum dca7aca7d1a044ecb77b4a842a06042772247098
+91 verbose addTmpTarball /var/folders/_t/_8kx0dnn1fb56ctfdtqz4c440000gp/T/npm-16924-c68bde57/registry.npmjs.org/lib/-/lib-0.1.1.tgz not in flight; adding
+92 verbose addTmpTarball already have metadata; skipping unpack for lib@0.1.1
+93 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+94 silly cache afterAdd lib@0.1.1
+95 verbose afterAdd /Users/a9jr5626/.npm/lib/0.1.1/package/package.json not in flight; writing
+96 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+97 verbose afterAdd /Users/a9jr5626/.npm/lib/0.1.1/package/package.json written
+98 http fetch 200 https://registry.npmjs.org/vendor/-/vendor-0.0.2.tgz
+99 silly fetchAndShaCheck shasum 91602d72910fda56716d4e77d9156ea983082dfa
+100 verbose addTmpTarball /var/folders/_t/_8kx0dnn1fb56ctfdtqz4c440000gp/T/npm-16924-c68bde57/registry.npmjs.org/vendor/-/vendor-0.0.2.tgz not in flight; adding
+101 verbose addTmpTarball already have metadata; skipping unpack for vendor@0.0.2
+102 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+103 silly cache afterAdd vendor@0.0.2
+104 verbose afterAdd /Users/a9jr5626/.npm/vendor/0.0.2/package/package.json not in flight; writing
+105 verbose correctMkdir /Users/a9jr5626/.npm correctMkdir not in flight; initializing
+106 verbose afterAdd /Users/a9jr5626/.npm/vendor/0.0.2/package/package.json written
+107 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/outer
+107 verbose stack     at makeError (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+107 verbose stack     at CachingRegistryClient.<anonymous> (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+107 verbose stack     at Request._callback (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+107 verbose stack     at Request.self.callback (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:199:22)
+107 verbose stack     at Request.emit (events.js:98:17)
+107 verbose stack     at Request.<anonymous> (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+107 verbose stack     at Request.emit (events.js:117:20)
+107 verbose stack     at IncomingMessage.<anonymous> (/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/request/request.js:963:12)
+107 verbose stack     at IncomingMessage.emit (events.js:117:20)
+107 verbose stack     at _stream_readable.js:944:16
+108 verbose statusCode 404
+109 verbose pkgid outer
+110 verbose cwd /Users/a9jr5626/WebLabs/rocket-shop
+111 error Darwin 15.4.0
+112 error argv "node" "/Users/a9jr5626/.meteor/packages/meteor-tool/.1.3.0_3.6icles++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "install" "--save" "lib" "vendor" "outer"
+113 error node v0.10.43
+114 error npm  v2.14.22
+115 error code E404
+116 error 404 Registry returned 404 for GET on https://registry.npmjs.org/outer
+116 error 404
+116 error 404 'outer' is not in the npm registry.
+116 error 404 You should bug the author to publish it (or use the name yourself!)
+116 error 404 It was specified as a dependency of 'hello'
+116 error 404
+116 error 404 Note that you can also install from a
+116 error 404 tarball, folder, http url, or git url.
+117 verbose exit [ 1, true ]
