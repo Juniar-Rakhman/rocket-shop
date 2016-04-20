@@ -522,9 +522,13 @@
           <item url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/deprecated.js" />
           <item url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/oauth_client.js" />
           <item url="file://$USER_HOME$/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/version_conflict_error.js" />
+          <item url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert.js" />
+          <item url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-default.css" />
           <item url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/packages/oauth/end_of_redirect_response.js" />
           <item url="file://$USER_HOME$/.meteor/packages/anti_i18n/0.4.3/web.browser/packages/anti:i18n.js" />
+          <item url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-template.js" />
           <item url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/packages/oauth/end_of_popup_response.js" />
+          <item url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-collection.js" />
           <item url="file://$USER_HOME$/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/blaze_overrides.js" />
           <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
           <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
@@ -883,9 +887,13 @@
         <root url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/deprecated.js" />
         <root url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/oauth_client.js" />
         <root url="file://$USER_HOME$/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/version_conflict_error.js" />
+        <root url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert.js" />
+        <root url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-default.css" />
         <root url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/packages/oauth/end_of_redirect_response.js" />
         <root url="file://$USER_HOME$/.meteor/packages/anti_i18n/0.4.3/web.browser/packages/anti:i18n.js" />
+        <root url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-template.js" />
         <root url="file://$USER_HOME$/.meteor/packages/oauth/1.1.10/web.browser/packages/oauth/end_of_popup_response.js" />
+        <root url="file://$USER_HOME$/.meteor/packages/juliancwirko_s-alert/3.1.4/web.browser/client/s-alert-collection.js" />
         <root url="file://$USER_HOME$/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/blaze_overrides.js" />
         <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.11/web.browser/observe_sequence.js" />
         <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.7/web.browser/ordered_dict.js" />
